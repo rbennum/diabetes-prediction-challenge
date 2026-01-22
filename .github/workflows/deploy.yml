@@ -16,7 +16,7 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         with:
-          id: ${{ secrets.KAGGLE_USERNAME }}/diabetest-project
+          id: ${{ secrets.KAGGLE_USERNAME }}/diabetes-prediction
           title: "Diabetes Prediction"
           code_file: ./notebooks/exploration.ipynb
           language: python
